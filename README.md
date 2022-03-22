@@ -1,31 +1,30 @@
 # meow-helper-cli
 
-
 > Automatically generate formatted helper text for meow cli helper
 
 <br>
 
-
 ## Install
 
 ### npm
+
 ```sh
 npm install meow meow-helper-cli
 ```
 
 ### npm
+
 ```sh
 yarn add meow meow-helper-cli
 ```
 
 <br>
 
-
 ## Usage
 
 ```js
 import meow from 'meow';
-import meowHelp from meow-helper-cli;
+import meowHelper from meow-helper-cli;
 
 const commands = {
 	new: {desc: `Creates a new user account`},
@@ -40,7 +39,7 @@ const flags = {
 	}
 };
 
-const helpText = meowHelp({
+const helpText = meowHelper({
 	name: `cli-command`,
 	flags,
 	commands
@@ -52,13 +51,11 @@ meow(helpText, {flags});
 // following auto formatted & generated help info.
 ```
 
-
 <br />
-
 
 ## API
 
-### meowHelp(options)
+### meowHelper(options)
 
 #### ❯ options
 
@@ -68,13 +65,13 @@ Default: ↓
 
 ```js
 {
-	name = `(CLI name undefined)`,
-	desc,
-	commands = {},
-	flags = {},
-	defaults = true,
-	header,
-	footer
+  (name = `(CLI name undefined)`),
+    desc,
+    (commands = {}),
+    (flags = {}),
+    (defaults = true),
+    header,
+    footer;
 }
 ```
 
@@ -129,14 +126,8 @@ Default: `undefined` (optional)
 
 Optionally, add additional footer information.
 
-
 <br>
 
-
-## License 
+## License
 
 - MIT © [csalam07](https://twitter.com/CSALam12/)
-
-
-
-

@@ -1,0 +1,51 @@
+{
+  "name": "meow-helper-cli",
+  "version": "1.0.0",
+  "description": " Automatically generate formatted helper text for meow cli helper",
+  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "utils"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csalam07/meow-helper-cli.git"
+  },
+  "keywords": [
+    "meow",
+    "helper",
+    "cli",
+    "cli-helper",
+    "meow-helper",
+    "meow-helper-cli",
+    "console",
+    "meow-cli",
+    "meow helper cli windows",
+    "meow helper cli macos",
+    "meow helper cli linux",
+    "meow helper cli windows mac linux",
+    "csalam",
+    "csalam07"
+  ],
+  "author": {
+    "name": "csalam07",
+    "linkedIn": "linkedin.com/in/shahbajz-alam-b47678193",
+    "twitter": "https://twitter.com/CSALam12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csalam07/meow-helper-cli/issues"
+  },
+  "homepage": "https://github.com/csalam07/meow-helper-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cli-table3": "^0.6.1"
+  }
+}
